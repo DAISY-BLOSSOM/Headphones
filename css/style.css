@@ -1,0 +1,493 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16px;
+}
+
+.container{
+    margin-left: auto;
+	margin-right: auto;
+}
+#sec1{
+    background: url('../images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 5px 10px 30px;
+	color: #fff;
+}
+#sec1 nav{
+    background-color: #000;
+    /* display: flex; */
+	justify-content: space-around;
+	/* align-items: center; */
+	flex-wrap: nowrap;
+}
+#sec1 nav label {
+	color: #fff;
+	font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+#sec1 nav ul{
+    list-style-type: none;
+    max-height: 0;
+    transition:max-height 0.8s ease;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#sec1 nav>input {
+	display: none;
+}
+#sec1 nav>input:checked+ul {
+	max-height: 500px;
+}
+#sec1 nav ul li a{
+    color: #ffffff;
+    margin-right: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px 0;
+}
+#sec1 #social{
+    width: 40%;
+    margin-left: 40%;
+}
+
+/* #sec1 nav aside{
+    display: inline-block;
+    margin-right: 5px;
+    width: 50%;
+}
+#sec1 nav aside a{
+    align-content: center;
+    display: inline-block;
+    margin: 5px 5px;
+} */
+#sd1{
+    justify-content: left;
+    margin:60px 0 80px 25px;
+}
+ div aside h1{
+     font-weight: 700;
+     font-size: 2.5rem;
+     color: #000;
+    margin-bottom: 20px;
+ }
+#shoplink{
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 15px 10px 15px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+#sd2{
+    background-color: #000;
+    margin: 40px 0 0 0;
+    padding: 20px 20px;
+    text-align:  justify;
+}
+#sec2{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+#sec2 h2:nth-of-type(1){
+    background-color:#F8BE02 ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+#sec2 article{
+    width: 70%;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid rgba(209, 206, 206, 0.829);
+    margin: 10px 15% 20px 15%;
+}
+#sec2 #dv2m1{
+    background: url('../images/card1.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+#sec2 #dv2m2{
+    background: url('../images/card2.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+#sec2 #dv2m3{
+    background: url('../images/card3.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.dv2f{
+    background-color: #000;
+    text-align: left justify;
+    color: #fff;
+    padding: 10px;
+}
+.dv2f>h3{
+    color:#FFC400 ;
+    margin: 10px 0;
+}
+.pdvm{
+    display: inline-block;
+    margin: 20px 0 0 30px;
+    background-color: rgba(8, 8, 8, 0.315);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#sec3{
+    background-color: #000;
+    padding-bottom: 30px;
+}
+#sec3 h3{
+    text-align: center;
+    color:#FFC902 ;
+    font-size: 1.3rem;
+    margin: 30px 0 20px 0;
+    padding: 30px 0 10px 0;
+}
+#dv3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#sec3 span{
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    margin: 10px 0 10px 10px;
+}
+#sec4{
+    background-color: #FECE01;
+    color: #fff;
+    padding: 10px 0 10px 0px;
+   
+}
+#sec4>div{
+    text-align: left;
+    margin: 20px 0 10px 10px;
+    padding: 15px;
+    color: #fff;
+}
+
+#sec4 a{
+ color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 30px 10px 15px 0;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+#sec5{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0 30px 7%;
+}
+
+/* #dv5{
+    display: flex;
+    justify-content: space-around;
+} */
+#lt5{
+    width: 80%;
+    height: 250px;
+    justify-content: center;
+    margin: 15px 10px;
+}
+#rt5{
+    display: flex;
+    justify-content: space-around;
+}
+#rt5>div{
+    width: 40%;
+    margin: 10px 10%;
+}
+#sec6{
+    background:  linear-gradient(rgba(126, 184, 231, 0.5), rgba(118, 173, 218, 0.5)),
+    url('../images/contactus.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+#sec6 aside{
+    text-align: left justify;
+    padding: 20px;
+}
+#sec6 form{
+    width: 50%;
+    border: 2px solid #E6AE08 ;
+    border-radius: 5px;
+    box-shadow: 15px  #E6AE08;
+    resize: vertical;
+    padding: 15px;
+    margin: 10px 0 10px 25% ;
+}
+#sec6 input{
+    width: 90%;
+    margin: 0 5px 10px 5px;
+    padding: 7px 5px;
+    
+}
+#sec6 input[type=submit]{
+    background: #FFBC00;
+    color: #3D3A31;
+}
+#sec7{
+    background-color: #0E0E0E;
+    padding: 20px 15px;
+}
+#sec7 ul{
+    list-style-type: none;
+    width: 50%;
+    margin-left: 10%;
+    color: #fff;
+    margin: 10px 15px 20px 10px;
+}
+#sec7 ul a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    padding-left: 15%;
+
+}
+#sec7 aside {
+    width: 40%;
+    align-items: center;
+    padding-left: 10%;
+
+}
+#sec7 aside input[type=email]{
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background-color: #0E0E0E;
+    margin: 10px;
+}
+
+#sec7 aside input[type=submit] {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+	.container {
+		max-width: 720px;
+	}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.container {
+		max-width: 960px;
+	}
+	
+	#sec1 {
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+	
+	#sec1 nav {
+        width: 100%;
+        margin: 0;
+     display: flex;
+		flex-wrap: nowrap;
+        justify-content: right;       
+    }
+
+	#sec1 nav label {
+		display: none;
+	}
+
+	#sec1 nav ul {
+		width: auto;
+		max-height: none;
+		background-color: transparent;
+		margin-bottom: 0;
+        width: 100%;
+        padding-left: 40%;
+    }
+	
+	#sec1 nav li {
+		display: inline-block;
+        font-size: 1rem;
+        margin-right: 20px;
+	}
+    #sec1 #social{
+        /* width:20%; */
+        margin-left: 25px;
+        justify-content: right;
+    }
+
+	#sec1 nav a {
+		display: inline-block;
+		padding: 5px 20px;
+       
+	}
+
+	#sec1 nav a:hover {
+		background-color: #8d8d89;
+        font-weight: bold;
+        padding: 5px 5px;
+	}
+    /* #sec1 nav aside{
+        width: 25%;
+        margin-right: 5px;
+    } */
+    /* #sec1 nav aside a{
+        margin: 2px;
+    } */
+    #sd1{
+        margin: 100px 0 150px 0;
+        padding-left: 150px;
+    }
+    #sd2{
+        margin: 100px 0 0 0;
+        padding: 30px 100px;
+    }
+    #sec2 #s2dpm{
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px 10% 30px 10%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    #sec2 #s2dpm article{
+        width: 32%;
+        margin: 0;
+    }
+    #dv3{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 20px 10px;
+        flex-wrap: wrap;
+        padding-left: 15%;
+    }
+    #sec3 span{
+        display: inline-block;
+        width: 20%;
+        height: 120px;
+    }
+    #sec4>div{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    #sec4 a{
+    width: 20%;
+    padding: 15px 10px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 15px;
+    }
+    .sd5{
+        width: 90%;
+        margin: 15px;
+text-align: left;  
+  }
+    #dv5{
+    display: flex;
+    justify-content: space-around;
+}
+#lt5{
+    width: 40%;
+}
+#rt5{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+#rt5>section{
+    margin: 15px 15px;
+    width: 90%;
+}
+#rt5>section>div{
+    width: 40%;
+    display: inline-block;
+    margin: 5px 15px;
+}
+ #sec6>div{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-left: 10%;
+} 
+#sec6 aside{
+    width: 60%;
+}
+#sec6 form{
+    width: 30%;
+   
+}
+#sec7 #dv7{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 15px 0 10px 10%;
+}
+}
+   
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 100%;
+	}
+
+}
